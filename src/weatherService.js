@@ -1,6 +1,6 @@
 // Real API integration with OpenWeatherMap
-const API_KEY = '20bd334b8bd7f0f67e95620e27e5880e'; // Your API key
-const BASE_URL = 'https://api.openweathermap.org/data/2.5';
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+const BASE_URL = import.meta.env.VITE_WEATHER_API_URL;
 
 // Get weather data from API
 export const fetchWeatherData = async (locationName) => {
@@ -208,7 +208,7 @@ export const generateMockWeather = (locationName) => {
 };
 
 export const LOCATIONS = [
-    { name: "Miami, USA", query: "Miami" },
+    { name: "Casablanca", query: "Casablanca" },
     { name: "New York, USA", query: "New York" },
     { name: "Los Angeles, USA", query: "Los Angeles" },
     { name: "London, UK", query: "London" },

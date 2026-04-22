@@ -18,7 +18,7 @@ const CurrentWeather = ({ weatherData, darkMode, cardStyle }) => {
                             {weatherData.location}
                         </h2>
                         <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm mt-1`}>
-                            📍 {weatherData.country} • Now
+                            MA Now
                         </p>
                         <div className="flex items-center mt-2 gap-3">
                             <i className={`${weatherData.conditionIcon} text-5xl ${darkMode ? 'text-yellow-300' : 'text-amber-500'}`}></i>
