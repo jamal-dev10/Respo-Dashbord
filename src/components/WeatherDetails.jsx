@@ -31,7 +31,7 @@ const WeatherDetails = ({ weatherData, darkMode, cardStyle }) => {
             <div className="mt-5 pt-3 border-t border-gray-500/30">
                 <p className="text-sm flex justify-between">
                     <span><i className="fas fa-map-marker-alt"></i> Nearby cities: </span>
-                    <span className="font-medium">Florida, NYC, Lynx</span>
+                    <span className="font-medium">Rabat, Casablanca, Agadir</span>
                 </p>
                 <p className="text-xs mt-2 italic opacity-80">
                     "Dynamic background & theme shifts with weather condition"
